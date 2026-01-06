@@ -4,6 +4,7 @@ const nextConfig: NextConfig = {
   /* config options here */
   reactCompiler: true,
   output: 'export', // This tells Next.js to build a static site
+  trailingSlash: true, // This creates /about/index.html instead of /about.html
 };
 
 export default nextConfig;

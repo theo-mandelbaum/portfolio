@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { NavigationMenu, NavigationMenuList, NavigationMenuItem, NavigationMenuLink } from "@radix-ui/react-navigation-menu"
 import { Button } from "../components/ui/button"
+import ResumeButton from "@/components/resume-button";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -57,7 +58,7 @@ export default function RootLayout({
           </NavigationMenu>
 
           {/* Social Icons or "Contact" Button */}
-          <Button variant="outline">Resume</Button>
+          <ResumeButton />
         </div>
       </header>
 

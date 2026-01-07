@@ -47,7 +47,12 @@ export default function RootLayout({
               </NavigationMenuItem>
               <NavigationMenuItem>
                 <NavigationMenuLink asChild>
-                  <a href="https://blog.mandelbaumtheo.org">Blogs</a>
+                  <a
+                    href="https://blog.mandelbaumtheo.org"
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                  >
+                    Blogs</a>
                 </NavigationMenuLink>
               </NavigationMenuItem>
               <NavigationMenuItem>

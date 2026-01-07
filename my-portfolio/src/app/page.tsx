@@ -8,43 +8,23 @@ export default function Home() {
           {/* Main Project — spans 2 columns on md+ */}
           <div className="md:col-span-2 bg-slate-100 rounded-xl p-6">
             <Card className="border-none shadow-none bg-transparent"> {/* Made card "invisible" so it uses the div's background */}
-              <CardHeader className="p-2 px-4"> {/* Tighten top/bottom padding */}
-                <CardTitle className="text-base">Main Project</CardTitle> 
+              <CardHeader className="p-1 px-4"> {/* Tighten top/bottom padding */}
+                <CardTitle className="text-3xl font-bold sm:text-4xl md:text-5xl">Latest Project</CardTitle> 
               </CardHeader>
-              <CardContent className="p-2 px-4 pb-4"> {/* Tighten content padding */}
-                <div className="h-24 bg-muted rounded-md" /> {/* Force a shorter height (h-24) instead of aspect-video */}
+              <CardContent className="p-1 px-4 pb-4"> {/* Tighten content padding */}
+                <p className="text-muted-foreground text-lg">
+                  An overview of things I've built, from full-stack web apps to experimental projects.
+                </p>
               </CardContent>
             </Card>
           </div>
 
           <div className="md:col-span-2 bg-slate-100 rounded-xl p-6">
             <Card className="border-none shadow-none bg-transparent"> {/* Made card "invisible" so it uses the div's background */}
-              <CardHeader className="p-2 px-4"> {/* Tighten top/bottom padding */}
-                <CardTitle className="text-base">Project 2</CardTitle> 
+              <CardHeader className="p-1 px-4"> {/* Tighten top/bottom padding */}
+                <CardTitle className="text-3xl font-bold sm:text-4xl md:text-5xl">Latest Blog</CardTitle> 
               </CardHeader>
-              <CardContent className="p-2 px-4 pb-4"> {/* Tighten content padding */}
-                <div className="h-24 bg-muted rounded-md" /> {/* Force a shorter height (h-24) instead of aspect-video */}
-              </CardContent>
-            </Card>
-          </div>
-
-          <div className="md:col-span-2 bg-slate-100 rounded-xl p-6">
-            <Card className="border-none shadow-none bg-transparent"> {/* Made card "invisible" so it uses the div's background */}
-              <CardHeader className="p-2 px-4"> {/* Tighten top/bottom padding */}
-                <CardTitle className="text-base">Project 3</CardTitle> 
-              </CardHeader>
-              <CardContent className="p-2 px-4 pb-4"> {/* Tighten content padding */}
-                <div className="h-24 bg-muted rounded-md" /> {/* Force a shorter height (h-24) instead of aspect-video */}
-              </CardContent>
-            </Card>
-          </div>
-
-          <div className="md:col-span-2 bg-slate-100 rounded-xl p-6">
-            <Card className="border-none shadow-none bg-transparent"> {/* Made card "invisible" so it uses the div's background */}
-              <CardHeader className="p-2 px-4"> {/* Tighten top/bottom padding */}
-                <CardTitle className="text-base">Project 4</CardTitle> 
-              </CardHeader>
-              <CardContent className="p-2 px-4 pb-4"> {/* Tighten content padding */}
+              <CardContent className="p-1 px-4 pb-4"> {/* Tighten content padding */}
                 <div className="h-24 bg-muted rounded-md" /> {/* Force a shorter height (h-24) instead of aspect-video */}
               </CardContent>
             </Card>

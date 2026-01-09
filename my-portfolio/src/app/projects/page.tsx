@@ -78,7 +78,6 @@ export default function Projects() {
             target="_blank"
             className="block"
           >
-            {/* Added hover:scale and hover:-translate-y for the subtle lift effect */}
             <Card className="group overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1 hover:scale-[1.01] active:scale-[0.99]">
               <div
                 className={`h-full bg-gradient-to-r ${project.gradient}`}
@@ -89,7 +88,6 @@ export default function Projects() {
                       <h2 className="text-2xl font-semibold">
                         {project.title}
                       </h2>
-                      {/* GitHub Arrow Link */}
                       <span className="text-sm font-medium group-hover:underline flex items-center gap-1">
                         View on GitHub <span className="transition-transform group-hover:translate-x-1">→</span>
                       </span>

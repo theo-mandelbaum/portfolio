@@ -32,7 +32,7 @@ export default function About() {
         <p className="text-muted-foreground">
           I'm a Senior Computer Science major at James Madison University, preparing for graduation this Spring. 
           As a student, I’ve developed a deep passion for <span className="text-foreground font-medium">software development, data engineering, and data science</span>. 
-          I am specifically driven to apply these technical skills toward improving learning and digital accessibility.
+          I am specifically driven to apply these technical skills toward improving learning, digital accessibility, and the lives of people.
         </p>
 
         <p className="text-muted-foreground">

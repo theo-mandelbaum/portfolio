@@ -67,9 +67,31 @@ export default function Home() {
           <Separator className="mt-2" />
         </div>
         
-        <div className="h-32 bg-slate-50 border border-dashed border-slate-200 rounded-xl flex items-center justify-center text-muted-foreground">
-          Blog content coming soon...
-        </div>
+        <Link
+          href={`https://blog.mandelbaumtheo.org/fourteen`}
+          target="_blank"
+          className="block"
+        >
+          <Card className="group overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1 hover:scale-[1.01] active:scale-[0.99]">
+            <div className="h-full bg-gradient-to-r from-muted/40 via-blue-500/15 to-muted/40">
+              <CardContent className="p-6 md:p-8">
+                <div className="flex flex-col gap-3">
+                  <div className="flex items-center justify-between">
+                    <h3 className="text-2xl font-semibold">
+                      MCP Exploration
+                    </h3>
+                  </div>
+
+                  <p className="text-muted-foreground">
+                    Today, we're diving into MCP (model context protocol) servers. What is the value of MCP servers? What do MCP servers do that an LLM can't do already? What does model context protocol even mean? <br />
+                    These are some of the questions that I'll be finding the answer to today...
+                  </p>
+
+                </div>
+              </CardContent>
+            </div>
+          </Card>
+        </Link>
       </div>
     </div>
   )

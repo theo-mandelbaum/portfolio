@@ -86,7 +86,6 @@ export default function Home() {
                     Today, we're diving into MCP (model context protocol) servers. What is the value of MCP servers? What do MCP servers do that an LLM can't do already? What does model context protocol even mean? <br />
                     These are some of the questions that I'll be finding the answer to today...
                   </p>
-
                 </div>
               </CardContent>
             </div>

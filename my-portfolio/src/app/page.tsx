@@ -1,15 +1,9 @@
 import { Separator } from "@/components/ui/separator"
 import { Card, CardContent } from "../components/ui/card"
 import Link from "next/link"
+import { projects } from "@/data/projects"
 
-const latestProject = {
-    title: "SQL Data Warehousing",
-    description:
-      "A focused data warehouse created from raw customer and product data. This warehouse includes a bronze, silver, and gold layer, implementing the Medallion Architecture of data design. SQL scripts that are used for data cleaning and aggregation are included.",
-    href: "https://github.com/theo-mandelbaum/sql-data-warehouse-project",
-    tech: ["Data Cleaning", "PostgreSQL", "Data Modeling", "ETL Processes"],
-    gradient: "from-indigo-500/20 to-purple-500/20",
-  };
+const latestProject = projects[0]
 
 export default function Home() {
   return (
@@ -35,7 +29,7 @@ export default function Home() {
                       {latestProject.title}
                     </h3>
                     <span className="text-sm font-medium group-hover:underline flex items-center gap-1">
-                      View on GitHub <span className="transition-transform group-hover:translate-x-1">→</span>
+                      {latestProject.linkLabel ?? "View on GitHub"} <span className="transition-transform group-hover:translate-x-1">→</span>
                     </span>
                   </div>
 
